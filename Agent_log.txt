@@ -1,0 +1,559 @@
+[
+  {
+    "model_version": "gemini-2.5-flash",
+    "content": {
+      "parts": [
+        {
+          "function_call": {
+            "id": "adk-97a9f213-9163-4cb8-8177-d1c38dff6899",
+            "args": {
+              "agent_name": "research_agent"
+            },
+            "name": "transfer_to_agent"
+          },
+          "thought_signature": "AY89a1_RxJa2-QoyLtPvcefHkHtGqitzdNjHZN3xoGLA6iAhrDVqIgDOrB91Tfz5tBoVjcttg5dh5gKZOlTj0JcjexGMefmXwnSfeh4mci61LsW2Bkn2ZkYHotXeWfFxqtx_qKVlSwnBS6_asw-ZBqZPqtJ7fe5bJDEuIN_qjsZJhGUUTq5DNQzdZjnbwTMz7sdhGe3lPZTvhFr9lNXSyfV9mGzQTLp2wc_RYEeC1U11F3Lf5WrJqq-pVTTdH6OIG4l1Jhw3qODwJK-Lw6qsac1PfHD1KpXVZYSibUZr6enBEAeAbMugRhWQueaw-YAMJOr54yOX-B43TIp_g9ugElEfoBe0KxTph6tGMGcz1v1PHAVzZNWIMH7iJoukcCd__j6Nvrt4DpF_Th9DUAQ0B21FK6Qz7sQGQ_-S590F98vPsXAPqVKVtwz9GEWBxtHRi384eBUUDtV2odghRGqDQpNcZKVSZhlaNwSCLvyLjft0AjmecZUyKzlEfxirODM2VNMTZrNirhsaz7ki3qCyPpP_Mm6dW-7U9-AysvqyZiwt5R73HxNT8BSIOv6SMA-fgkbjeZetjIQ_j4BMgD--KRnh6zgm6fAtk3JssMpKwPiH3yh0hJAsf2UlND5JwAln2H08RqjsQK72w-FG5aFyvzQPyZAqNaZ8C-KlrJQFMJDoanW9kGuDIlCDMilmtxN-ILYJ-NxwZruNlyMQTLBm9Nw5EMdQbqYzgMhk5KEnBQ5iH5Pvsl_wH0FJ"
+        }
+      ],
+      "role": "model"
+    },
+    "finish_reason": "STOP",
+    "usage_metadata": {
+      "candidates_token_count": 20,
+      "candidates_tokens_details": [
+        {
+          "modality": "TEXT",
+          "token_count": 20
+        }
+      ],
+      "prompt_token_count": 444,
+      "prompt_tokens_details": [
+        {
+          "modality": "TEXT",
+          "token_count": 444
+        }
+      ],
+      "thoughts_token_count": 123,
+      "total_token_count": 587,
+      "traffic_type": "ON_DEMAND"
+    },
+    "invocation_id": "e-e9ec3a0e-967f-4ea9-acc1-926952a30aa3",
+    "author": "coordinator_agent",
+    "actions": {
+      "state_delta": {},
+      "artifact_delta": {},
+      "requested_auth_configs": {},
+      "requested_tool_confirmations": {}
+    },
+    "node_info": {
+      "path": "coordinator_agent@1"
+    },
+    "long_running_tool_ids": [],
+    "id": "2dc8801c-b866-47e4-883e-2e10f9c98020",
+    "timestamp": 1790068341.975537
+  },
+  {
+    "content": {
+      "parts": [
+        {
+          "function_response": {
+            "id": "adk-97a9f213-9163-4cb8-8177-d1c38dff6899",
+            "name": "transfer_to_agent",
+            "response": {
+              "result": null
+            }
+          }
+        }
+      ],
+      "role": "user"
+    },
+    "invocation_id": "e-e9ec3a0e-967f-4ea9-acc1-926952a30aa3",
+    "author": "coordinator_agent",
+    "actions": {
+      "state_delta": {},
+      "artifact_delta": {},
+      "transfer_to_agent": "research_agent",
+      "requested_auth_configs": {},
+      "requested_tool_confirmations": {}
+    },
+    "node_info": {
+      "path": "coordinator_agent@1"
+    },
+    "id": "16aed373-e6d9-4378-bfff-850d1d0beaf9",
+    "timestamp": 1790068343.2185326
+  },
+  {
+    "model_version": "gemini-2.5-flash",
+    "content": {
+      "parts": [
+        {
+          "function_call": {
+            "id": "adk-359927a5-4446-405f-a896-e48eb96d3094",
+            "args": {
+              "topic": "Sundar Pichai"
+            },
+            "name": "search_topic"
+          },
+          "thought_signature": "CpIPAY89a18iM33NCqwM_ZNSMNLJUj2iXaPxl6X0abw4_Y1oRJz5O7L0rQID3GBFGHDNY2840mT0JanG0kOmIpMquUwxWe3voT-5XGOOQU2fOUaV8vLimPnjmBayocbabpzA4YsIEXp58R2CE7oCDQV87vSi61p_POjhzH4fqYNP554xD2nUVfbW4B_bLEuZKRlXCdMjOfueX3Jphxz6wB93uorym5k5nYbxNL33a5PdpVh-PRTxv3q4L7d22hEswHh6Hgk628dW7Fgrcr3Bs51L3F5uVte8ebWmbAteK1YaOAUSDuiFB1_D88c-VeuCkKl4IB1lbvbegGRIDqIq22k2UxDwnNEAjoetae8HmYxLs2ArT-0qbrgQxErJCkOP-q9xP-ybQVEBNvr_WQhoXizoIjN9UU3Q6z0pRA7sC8tfmUkczIWJ3lsbyeAIPWWzWYTm9QenNOvIpSZFYPdA6DzZpGC7UhUzzJS2We86C5Oi5wN0Z8mgqP6GrpAVbF92j2gTtha0MuYFJe2FKXQFCH0TfEUCQ7cTZuDGRk3LB8_Ihc0yvuZSJIxStXa5E-4b87RU0hYblxsYy26KYFNnHrPy5_56m_svQZQAGCyArtTUdDcqzk4mW_lqpQdoyxPEkiAHSU_0SLBUw9bRMsszZ4qieI3SCljfOxkqqqLsWlHc2bvQFf-B6rPI3aWltgplGSDLo9NEIOdJSqdjgV0Z8kvOPrV6tjEiODmZ4drOfpPjJTGaddYLEbZOc2PcW6cp14_hD1Tv8Y96v41W0IH0DoPapQ2GTZn1nedJGE0S3BgbW9KTnI-JVkOV93BWnNmyMvq959l5YzRBHYDAKhTZGyGcKv18Esxe-nzFgj61tFF2QZ-CIYVP44smrJ86n7xpvxVoQj2BM15vaUUas4fge6ymafmiMdwOBQBggII5wrAZLG0j1UJc6bmtdbT3T8B7nbBVa9XatUXjWxTgpCdFofrUx-ikHEpV2JZb1HQlns6odb0WHqNLzTdRCkC2do7bZ_5ooxAjepTH5Q0Isz1oXh5njnw4hsbVaVCi_9yshD_p8o5cDmYz_wWvjGklj-d3_4uIMSqAKXQf_bZGKZ0K2s_q_Vp2NjKihH2HgQWpiTfxAymXjMhKpLZ62CSdes85jn4rbDw2BFQzJmWpmVd1canHMDMlhwcKfcgOV8voOhaKF8uR4WqL1022bzMLr44F_pZw4B9U28jwd1ZwVbT4m34I5fyqkT-W-WJHmGbWHwlxQmC-1PSosowNCVdMI8DG2XsE8vf6UwO3yUfoExsNNhwr-EeyCnx9kiZCgAAU-L-CkYQ-XsiTxVMX9VRsjN0U4KOlfQrqXBbmD_Kt4XzO0K4oaSZA78BhI32QziAX4u8YtfSaqXH1N1sYs9XVhqnjEYsE2FmThqt8J68-tgUpb_EQlAFx9o741P86HZYeW20_2OVzF_hX4Pey0D8UYg6J7kCGg8UWbcehdwMGhFP5BW7ccWLfhBy_utPy7EA8T-HoyxjySXIi_k5G631qb5lNo90i8ABRWqH1n1Yj0pZxcZDcmr6JhnejF76jAy0_jfUTIbr88z-kvfjtgmAReSUzw9PXXRHV2tJskzUPkTDN0k6tgv1Pk8ZOhCdhztHeMLTJ-t_wbDiNgLnYy9FoJAdTmWiC4pQijCCw7wQInRGC15Uqs9eLKIS-D6b28nm0NPeh5lHAonB-ug410HjUJyGsNUZr5fEgGycOf9tKxlHkGMPAUfq4IJXapxC2GyJ-WCHTtnbhuwkoJB8qkrXR8wABJR2HrBqteHynv4H1PCPtTLt7_1dThhz6Km6G_wD1GxLo1d6anMIndeqLSIheYpCEUGtK9ayvf4ZeRzh9Un4dPIw_q0wofhb22XMAfjQDhGZLK12EY3-v34sx_KPgAkRER_4z0Q-PsHjdY21jLa3Geq-NJ_K6Q0LOwJ170PKsevZNiiW8c8XauFsTWUe87-qkBfMo7QWQJwxZQ-EYI2qp0amUa9N7_94eetAtLP6TPtFVral8i6Ur6nFy_M0G90QX36J1GjunuA53bti7yJE-4yoZkNAqPPr8XNEIeTnpDsJs4uSxjavBWPIdLlNHVXaHkdOXOdwcqrpYOHiQdBpB7EKZi6GrHbt9JDaZ-z7APaCuPv224DadGqMOfT2TveMUlvj3n2B9oNi6Owt98VerX1HMf9tBs0Ef_yiOS-Ern1ddzuWOuEcTB3L6LSHefc0Yy5nOJAKD2PMnIVZBa8Y31hlHcByVv6syO6IdwP4Emc47Vwnh1QfENqrWF5An0kGw1ORsyFJ7x2qicgGIFrrRX1xa4ywGtDEehDRnrbPyAA7i0vDn5WIXs4doQEG8NKjTPWbZgcYTWwKg-w6-sB2oWsnfcNZ0OhzF8SIFRCCBnyF5YlB5pU1gUpYGTuP780AJ0dxfKao2tCrrdSdCuixbmu7cNn3lkx5wwo0RnGPrVYap4a2vjpuwXlX0WJLkhIDzI298O8qwIEzuF_DEgnlpJIodBs-4tcf6PoZRD7pjNaJalCVr2Z7GCvbH1_LmRdSJNV90r2DSDd0rKeK_K45z70QjkkLH"
+        }
+      ],
+      "role": "model"
+    },
+    "finish_reason": "STOP",
+    "usage_metadata": {
+      "candidates_token_count": 8,
+      "candidates_tokens_details": [
+        {
+          "modality": "TEXT",
+          "token_count": 8
+        }
+      ],
+      "prompt_token_count": 675,
+      "prompt_tokens_details": [
+        {
+          "modality": "TEXT",
+          "token_count": 675
+        }
+      ],
+      "thoughts_token_count": 444,
+      "total_token_count": 1127,
+      "traffic_type": "ON_DEMAND"
+    },
+    "avg_logprobs": -15.178754806518555,
+    "invocation_id": "e-e9ec3a0e-967f-4ea9-acc1-926952a30aa3",
+    "author": "research_agent",
+    "actions": {
+      "state_delta": {},
+      "artifact_delta": {},
+      "requested_auth_configs": {},
+      "requested_tool_confirmations": {}
+    },
+    "node_info": {
+      "path": "coordinator_agent@1/research_agent@1"
+    },
+    "long_running_tool_ids": [],
+    "id": "4ad2ee51-9317-4e95-9855-c005ddb61af8",
+    "timestamp": 1790068343.33961
+  },
+  {
+    "content": {
+      "parts": [
+        {
+          "function_response": {
+            "id": "adk-359927a5-4446-405f-a896-e48eb96d3094",
+            "name": "search_topic",
+            "response": {
+              "status": "success",
+              "title": "Sundar Pichai",
+              "summary": "Pichai Sundararajan (born June 10, 1972), better known as Sundar Pichai, is an Indian\u2013American business executive who has been the CEO of Google since 2015 and the CEO of its parent company Alphabet Inc. since 2019.\nPichai began his career as a materials engineer. Following a short stint at the management consulting firm McKinsey & Co., Pichai joined Google in 2004, where he led the product management and innovation efforts for a suite of Google's client software products, including Google Chrome and ChromeOS, as well as being largely responsible for Google Drive. In addition, he went on to oversee the development of other applications such as Gmail and Google Maps.\nAs of February 2026, his net worth is estimated at US$1.6 billion."
+            }
+          }
+        }
+      ],
+      "role": "user"
+    },
+    "invocation_id": "e-e9ec3a0e-967f-4ea9-acc1-926952a30aa3",
+    "author": "research_agent",
+    "actions": {
+      "state_delta": {},
+      "artifact_delta": {},
+      "requested_auth_configs": {},
+      "requested_tool_confirmations": {}
+    },
+    "node_info": {
+      "path": "coordinator_agent@1/research_agent@1"
+    },
+    "id": "933b866a-d8a2-4757-abdc-84c59e50792c",
+    "timestamp": 1790068346.4251873
+  },
+  {
+    "model_version": "gemini-2.5-flash",
+    "content": {
+      "parts": [
+        {
+          "text": "Sundar Pichai, born Pichai Sundararajan on June 10, 1972, is an Indian-American business executive. He has held the position of CEO at Google since 2015 and became CEO of its parent company, Alphabet Inc., in 2019.\n\nPichai initially started his career as a materials engineer and worked briefly at McKinsey & Co. He joined Google in 2004, where he was instrumental in product management and innovation for key Google client software products such as Google Chrome, ChromeOS, and Google Drive. He also supervised the development of other significant applications like Gmail and Google Maps. As of February 2026, his net worth is estimated to be US$1.6 billion.",
+          "thought_signature": "CtkCAY89a196BB_bcUMCU9GpTbWAtogp2eaOeILGDl8DOj1rPn64pz02Bhm_aG_jNCNVvem1Gi3RRUHcrDuXDuDK-g-H7LkocVBoPOd_Ge73poVCsq_9mBJBYjGSylaSZK6wIBNItPA85yx4wEL-NtHxLWbUgips2DlcxHk4fj_zFpFb7ymJkCVvRU8GWtCMv1KtvU1I8aKiotr6LqVmrFY3qP-OckqoxH4Urz5wVEJaF6TnjyVZgcHnyeHTtL1LzDDpDKX579cT-KV7RgpR77ukZM_49dJMxmatmpX1Y3ySBLg-hx7CwGg0YV5YlZ0fQn-uttRPD0R3jHnB_wU6nl0buS6Bg5geiXjWFWfBF9EEngH4SHGmXo89z7NjsqRL5qHof22uevEASdlU9Ielj-2UggbNw2DCaiTX6khdrdZ1OknSJ06RWYb6ljHjtXtGgwtuY2HFJxkx38S1"
+        },
+        {
+          "function_call": {
+            "id": "adk-e133721b-6541-4e52-b998-91178ff7effe",
+            "args": {
+              "agent_name": "coordinator_agent"
+            },
+            "name": "transfer_to_agent"
+          }
+        }
+      ],
+      "role": "model"
+    },
+    "finish_reason": "STOP",
+    "usage_metadata": {
+      "candidates_token_count": 171,
+      "candidates_tokens_details": [
+        {
+          "modality": "TEXT",
+          "token_count": 171
+        }
+      ],
+      "prompt_token_count": 1319,
+      "prompt_tokens_details": [
+        {
+          "modality": "TEXT",
+          "token_count": 1319
+        }
+      ],
+      "thoughts_token_count": 62,
+      "total_token_count": 1552,
+      "traffic_type": "ON_DEMAND"
+    },
+    "avg_logprobs": -0.2843285276178728,
+    "invocation_id": "e-e9ec3a0e-967f-4ea9-acc1-926952a30aa3",
+    "author": "research_agent",
+    "actions": {
+      "state_delta": {},
+      "artifact_delta": {},
+      "requested_auth_configs": {},
+      "requested_tool_confirmations": {}
+    },
+    "node_info": {
+      "path": "coordinator_agent@1/research_agent@1"
+    },
+    "long_running_tool_ids": [],
+    "id": "5225fef3-6532-4c76-94cb-aa5a0fe175e3",
+    "timestamp": 1790068346.5572805
+  },
+  {
+    "content": {
+      "parts": [
+        {
+          "function_response": {
+            "id": "adk-e133721b-6541-4e52-b998-91178ff7effe",
+            "name": "transfer_to_agent",
+            "response": {
+              "result": null
+            }
+          }
+        }
+      ],
+      "role": "user"
+    },
+    "invocation_id": "e-e9ec3a0e-967f-4ea9-acc1-926952a30aa3",
+    "author": "research_agent",
+    "actions": {
+      "state_delta": {},
+      "artifact_delta": {},
+      "transfer_to_agent": "coordinator_agent",
+      "requested_auth_configs": {},
+      "requested_tool_confirmations": {}
+    },
+    "node_info": {
+      "path": "coordinator_agent@1/research_agent@1"
+    },
+    "id": "19e4a432-3f48-4ca0-8d45-bba916824588",
+    "timestamp": 1790068348.2570298
+  },
+  {
+    "model_version": "gemini-2.5-flash",
+    "content": {
+      "parts": [
+        {
+          "function_call": {
+            "id": "adk-56aa9747-fd25-4027-80eb-14f121874dbf",
+            "args": {
+              "agent_name": "analytics_agent"
+            },
+            "name": "transfer_to_agent"
+          },
+          "thought_signature": "CqICAY89a1_XVwhmbHc_D2_EVVhjVXR_dYlxDGoaYivD3dVcCqIsIlH76aT2am7lcLrde-VGjV15VN428w7l5nFnMQVCHwOdvtHwTC3CdtNtZP5Jc7yNhdvkK2ILPxA1w8CjPQtwAwShEmBsnI4M7P7qlvufASsRZoQgwRv3uDITP-WrD8MfPRSYWifRLGnDs23ZSlQ7xVIQ-iuQa5iqsiSI0xn2wdGusYdf8a1ma3U08bVIXVW3vVXl3vB8C-TizbtY_B7U2hfdI5MgA8LpzLRaCx60j5NyITl68yw7coAuS0NkXKrQj-T2iDEDUpWtLSb8Kv1A0EsC3K-9GbHFhE8O10j3fwgFWRB40n6DMPZacZWNaYc5go7YC9ShNuDOq3z_pyI="
+        }
+      ],
+      "role": "model"
+    },
+    "finish_reason": "STOP",
+    "usage_metadata": {
+      "candidates_token_count": 11,
+      "candidates_tokens_details": [
+        {
+          "modality": "TEXT",
+          "token_count": 11
+        }
+      ],
+      "prompt_token_count": 1396,
+      "prompt_tokens_details": [
+        {
+          "modality": "TEXT",
+          "token_count": 1396
+        }
+      ],
+      "thoughts_token_count": 57,
+      "total_token_count": 1464,
+      "traffic_type": "ON_DEMAND"
+    },
+    "avg_logprobs": -0.7318144711581144,
+    "invocation_id": "e-e9ec3a0e-967f-4ea9-acc1-926952a30aa3",
+    "author": "coordinator_agent",
+    "actions": {
+      "state_delta": {},
+      "artifact_delta": {},
+      "requested_auth_configs": {},
+      "requested_tool_confirmations": {}
+    },
+    "node_info": {
+      "path": "coordinator_agent@2"
+    },
+    "long_running_tool_ids": [],
+    "id": "ab63ba62-dd3a-4287-b726-872a72cf9c70",
+    "timestamp": 1790068348.498893
+  },
+  {
+    "content": {
+      "parts": [
+        {
+          "function_response": {
+            "id": "adk-56aa9747-fd25-4027-80eb-14f121874dbf",
+            "name": "transfer_to_agent",
+            "response": {
+              "result": null
+            }
+          }
+        }
+      ],
+      "role": "user"
+    },
+    "invocation_id": "e-e9ec3a0e-967f-4ea9-acc1-926952a30aa3",
+    "author": "coordinator_agent",
+    "actions": {
+      "state_delta": {},
+      "artifact_delta": {},
+      "transfer_to_agent": "analytics_agent",
+      "requested_auth_configs": {},
+      "requested_tool_confirmations": {}
+    },
+    "node_info": {
+      "path": "coordinator_agent@2"
+    },
+    "id": "40b1ceef-b65c-4b59-982f-39b935349d0b",
+    "timestamp": 1790068349.3183239
+  },
+  {
+    "model_version": "gemini-2.5-flash",
+    "content": {
+      "parts": [
+        {
+          "function_call": {
+            "id": "adk-7bfb7672-2f4a-4cbe-ad66-37f157c428c1",
+            "args": {
+              "expression": "(0.10 * 300) * (0.20 * 100)"
+            },
+            "name": "calculator"
+          },
+          "thought_signature": "CtALAY89a1_m9939euQPxbwkyyUtWDnd5BNQmszeee22O61PQXHyL9m-xHlVBggfX7ACdIBQi2DpLc6gzUY2wqyNSXYdmZ8F56z-jFeCwL4KoqfLZttXGk0C1J28S4uV7f1PDZR8aLPhyRQFXf1mkj6rBePL9l5qmIfm-5l8i2jI7Khn-NBYon42SefhPwwH-ZZh8E--Gm3-kKoP8Z5sR9aJ0VdWvDK7lSaJrcSVPXc_x-l582pLTEo_6L1WydgWkS7Hx_jIptiBHROJ_6lKf8jZ4Iy97uFqUGq-jfwb2XOZs3cZy3UEU5MiwFdi0K8fgqBgXuXoPEAXskS5Ly9Eae8AJEQnNZhDx6LfjJqzO8rrB0XktSajvgEQsBPbrtFtOmEXCOEtf4Vfgz0F6rY4ZQ0cuSkX7FOYlG6bdFquzML__2BduI8tqGl6LsyOnmDznGp2lrRDzXWDIrrstg6Y2oLnheZH4Fp6z1CVF3tP85iX2edN6BVU0-vs_xR0R44rPzDqj47-ZNEUiqy9hzqeFDqf2rxarVWC2zS88RH_NUrctEaETEBoMSBk-wKzmBGmMCA1T_v0xZ5WvYaUN6LUaOYprJTLHe1bsDAtqmeDx1Tz-Ac8xEwHpK4UOS1kX7_9XwaFHdMFk_KDhlgudGHLvyVYA2NzKgQgs7Mo1u9Jpe6G5IziX9TErfsP_zS54Ib9kWFnhf68ZbrE9zPDlaYnl1G_1iP4bPZ59Ok-tmR3_bMD3hseFpaaSfFLpy3MYBQQs2iG9yT8Qf0a1E8LP85qXQkrGeBGWQG5z9vFWyZ8okvtRpve5XJoiYpkgbG5i4SQalqTY5ruUUAq_8dF3YRnSWPk9Io3TjSvpqIeUPrTGA6jJHBZZvLUHRCX0EZORevjvQObPHjo53wd7jqkCIsJxHA6fusvIJiAWodbrtOE0j9P7H9IQ7dkuGn5RPPDof8pevAZCNgDTBpeV0HBzAfhD3J6Rf0eWX1Nqwf26XjWqQThzb9UFfbhPlzZ2KpNRXKqLii08SpDxQ8xHwHQBSA3G3AIp2i-SEUHl-KxB-3oXMT93CrPKNtKM7WvyPQBH5G63_rUJThPOodFnoXJEtYQKoFmS9FkftqjWx5Dn0xSHrPe_P9r8nHE8qL7lUDX0uA7fCljckJwtE54a1O60SaDK6l7nHlhODZlknG6ClMYPDGNbKfxYad-Y3B42ZWwOCerWdK2HhTa5q9cFydcyrMgMMb00jrJmdn-zRiaj-u6TQc-uzLRXFPODH3ilsSbKg9PGhOe-GJn6g2AQkZxwZ6N2T5JRxSFbWECEMyBmAV53IuJ0gSusTaDl30bkQIhhZ_JFHfmGlM5-IjIgbP_pNPJoqwOAhKWRE2q3HtrpFm87tbZvfvh1x5bBVEPKbHRxD2H_I7yyEjYaTq363MRdRWNV0jH8bLbNSHwJ8w2yCzvd1U4f3jaZlBwZc7h4sO7FvSKj1q4JDkocn-GGMIuP-kK3KeYZGf0_N0bsRVX2NVBRiZhO3HM4Y00EYqyBtIFy1egj7EkluxOkoULlUhz2ATzQPjWwiCdORi3zrmkCnW9TJ3_tIx96LnzggqRqOIqnQEVPZrpRdhqf6nb2JgxWcsKPQwYz0tETg0G4x-OWe3qCvnreonV6kSGiMSe9tXb6Mjjh-On4ILWnDVWgC3cKJ2iiv564I3CGe01rDBGddgcjfMM2iRD7Nf1NWxKFq2M6wOT-4riosN97QyFYiRPCICWJ7mee1l6JmRKUWxlaDa3iI0DRAcTB8KvaVrwFRDMVOA-1j08orn5qGzILWu6mSStsmUgr9aKuOeuDTgwd4eRntfpAqWb7O7xAMASTSxwPru5r0G0oBw0Jw_mWYj33SbY80VsSlgKmLMGHn8xOSw5unLm5_IrCMWFHFgH4LKqGtA9toEE3cs-fDfhWhQPSTDPD_eqGJqfF1sMlXmvZFcdhxdDtHkAo-9BsGX9wiha1V8I2yT6"
+        }
+      ],
+      "role": "model"
+    },
+    "finish_reason": "STOP",
+    "usage_metadata": {
+      "candidates_token_count": 25,
+      "candidates_tokens_details": [
+        {
+          "modality": "TEXT",
+          "token_count": 25
+        }
+      ],
+      "prompt_token_count": 1866,
+      "prompt_tokens_details": [
+        {
+          "modality": "TEXT",
+          "token_count": 1866
+        }
+      ],
+      "thoughts_token_count": 527,
+      "total_token_count": 2418,
+      "traffic_type": "ON_DEMAND"
+    },
+    "avg_logprobs": -4.7157589721679685,
+    "invocation_id": "e-e9ec3a0e-967f-4ea9-acc1-926952a30aa3",
+    "author": "analytics_agent",
+    "actions": {
+      "state_delta": {},
+      "artifact_delta": {},
+      "requested_auth_configs": {},
+      "requested_tool_confirmations": {}
+    },
+    "node_info": {
+      "path": "coordinator_agent@2/analytics_agent@1"
+    },
+    "long_running_tool_ids": [],
+    "id": "734775fc-5401-4044-ac63-5d74adbd1db8",
+    "timestamp": 1790068349.4828327
+  },
+  {
+    "content": {
+      "parts": [
+        {
+          "function_response": {
+            "id": "adk-7bfb7672-2f4a-4cbe-ad66-37f157c428c1",
+            "name": "calculator",
+            "response": {
+              "status": "success",
+              "result": 600.0
+            }
+          }
+        }
+      ],
+      "role": "user"
+    },
+    "invocation_id": "e-e9ec3a0e-967f-4ea9-acc1-926952a30aa3",
+    "author": "analytics_agent",
+    "actions": {
+      "state_delta": {},
+      "artifact_delta": {},
+      "requested_auth_configs": {},
+      "requested_tool_confirmations": {}
+    },
+    "node_info": {
+      "path": "coordinator_agent@2/analytics_agent@1"
+    },
+    "id": "74f2183c-6859-490a-a937-d551652371bd",
+    "timestamp": 1790068352.2282681
+  },
+  {
+    "model_version": "gemini-2.5-flash",
+    "content": {
+      "parts": [
+        {
+          "text": "The sum of 10% of 300 multiplied by 20% of 100 is 600.\n\nHere's the breakdown:\n*   10% of 300 is 30.\n*   20% of 100 is 20.\n*   Multiplying these two results (30 * 20) gives 600.",
+          "thought_signature": "Cu4CAY89a1-snDRBkFmwKFZYYizNpEpstX33j2dRVH9YaVBZnIiFhoF7j_6aE1H6bAG5IZPLqY2WxDbB_Jv4NmjllKgG2rqK7XZU99Iu6hxRbEvJLOatwgv1oJhVPpLIi9ZDncX06m2T6Oz6TFlAlugxUr_6tQfJb6Che1UetjdfDn46G1S1zgxwDInpLD74HZ-gM58IyXmQ-G-VPYWsYm_KiYs51QpIyHVZ38HglsUKG6cZjSLDNMg_ZTf2jx5deiWxZISPglXlGwKUV83VD87j2Khic2JMOOVp2koY1pLVPtLIcoVb0OPqUb_sav_FdHIeTQo6GqRzemiJuF2pJpv9E1zo-Nsw3obD6JyyPglA53VZV0FcO-Hx_rMs0fMyhPRkrCNRkWUYe32DcFKcJyAqLl5NPOnWlxNWBuOsOZu80BT-1H4TsDQIPwZdf8VBPhHtnS3T5TFcQ1kN1SvQrd_fN7tieF9k0MWWTkP0hFcD"
+        },
+        {
+          "function_call": {
+            "id": "adk-ebaa6c8b-0497-443a-a2ef-2cf1454ac155",
+            "args": {
+              "agent_name": "coordinator_agent"
+            },
+            "name": "transfer_to_agent"
+          }
+        }
+      ],
+      "role": "model"
+    },
+    "finish_reason": "STOP",
+    "usage_metadata": {
+      "cache_tokens_details": [
+        {
+          "modality": "TEXT",
+          "token_count": 1679
+        }
+      ],
+      "cached_content_token_count": 1679,
+      "candidates_token_count": 101,
+      "candidates_tokens_details": [
+        {
+          "modality": "TEXT",
+          "token_count": 101
+        }
+      ],
+      "prompt_token_count": 2423,
+      "prompt_tokens_details": [
+        {
+          "modality": "TEXT",
+          "token_count": 2423
+        }
+      ],
+      "thoughts_token_count": 74,
+      "total_token_count": 2598,
+      "traffic_type": "ON_DEMAND"
+    },
+    "avg_logprobs": -0.17484362762753325,
+    "invocation_id": "e-e9ec3a0e-967f-4ea9-acc1-926952a30aa3",
+    "author": "analytics_agent",
+    "actions": {
+      "state_delta": {},
+      "artifact_delta": {},
+      "requested_auth_configs": {},
+      "requested_tool_confirmations": {}
+    },
+    "node_info": {
+      "path": "coordinator_agent@2/analytics_agent@1"
+    },
+    "long_running_tool_ids": [],
+    "id": "52c84882-67ec-4214-b61d-cd7cd6831050",
+    "timestamp": 1790068352.3660657
+  },
+  {
+    "content": {
+      "parts": [
+        {
+          "function_response": {
+            "id": "adk-ebaa6c8b-0497-443a-a2ef-2cf1454ac155",
+            "name": "transfer_to_agent",
+            "response": {
+              "result": null
+            }
+          }
+        }
+      ],
+      "role": "user"
+    },
+    "invocation_id": "e-e9ec3a0e-967f-4ea9-acc1-926952a30aa3",
+    "author": "analytics_agent",
+    "actions": {
+      "state_delta": {},
+      "artifact_delta": {},
+      "transfer_to_agent": "coordinator_agent",
+      "requested_auth_configs": {},
+      "requested_tool_confirmations": {}
+    },
+    "node_info": {
+      "path": "coordinator_agent@2/analytics_agent@1"
+    },
+    "id": "233aded1-5266-4c31-8546-ac7e120c0e63",
+    "timestamp": 1790068353.5478933
+  },
+  {
+    "model_version": "gemini-2.5-flash",
+    "content": {
+      "parts": [
+        {
+          "text": "Sundar Pichai, born Pichai Sundararajan on June 10, 1972, is an Indian-American business executive. He has been the CEO of Google since 2015 and CEO of its parent company, Alphabet Inc., since 2019. He began his career as a materials engineer and worked at McKinsey & Co. before joining Google in 2004. At Google, he played a crucial role in product management and innovation for products like Google Chrome, ChromeOS, Google Drive, Gmail, and Google Maps. As of February 2026, his net worth is estimated at US$1.6 billion.\n\nRegarding your calculation, the sum of 10% of 300 multiplied by 20% of 100 is 600.\nHere's the breakdown:\n*   10% of 300 is 30.\n*   20% of 100 is 20.\n*   Multiplying these two results (30 * 20) gives 600.",
+          "thought_signature": "CtgCAY89a18Y9uUZ6KH4BaWvNAxse2j8OkFY2pP5l2de6KnJx9EKqXOKM3XRACNK5OsnPR0PrRjG3ZI9wl3hEebhuRyMr6CKqsWNKgsL-DgwQVzERFPvqbAVe5DSAdkvbzQOKfLUl3Y7tlYSvD2M_AKfBwPFVvUPrMCxudLtphY770_1XGdm-3F8CVhj4a-ih5DSKFQPcmoAN8IJPeQJn_4CLvtyPAMhplC10DD7lT0GeRjCyu4hWqtCmGFZA5XwBi5DodgdHhshoG2ZFUoX3auuXhqCOjJeHue2Zoxjfv84ILFFfi2tZrSHNa8F2pZ6la-NJxSI5MW6Wo3YenpPlsx5ldj_NIWRIRP6eaCGk1GKlT9DQSzhNZK4-q7UDTi86-_yvuIM6l0B2kGYCvW_drv_fE_zEIbiXFuJVDZsnmGPvdZyAjXEK5tqOYMcjNnqBjXnNJcd5kNZPOw="
+        }
+      ],
+      "role": "model"
+    },
+    "finish_reason": "STOP",
+    "usage_metadata": {
+      "candidates_token_count": 235,
+      "candidates_tokens_details": [
+        {
+          "modality": "TEXT",
+          "token_count": 235
+        }
+      ],
+      "prompt_token_count": 2165,
+      "prompt_tokens_details": [
+        {
+          "modality": "TEXT",
+          "token_count": 2165
+        }
+      ],
+      "thoughts_token_count": 68,
+      "total_token_count": 2468,
+      "traffic_type": "ON_DEMAND"
+    },
+    "avg_logprobs": -0.0940998726702751,
+    "invocation_id": "e-e9ec3a0e-967f-4ea9-acc1-926952a30aa3",
+    "author": "coordinator_agent",
+    "actions": {
+      "state_delta": {},
+      "artifact_delta": {},
+      "requested_auth_configs": {},
+      "requested_tool_confirmations": {}
+    },
+    "node_info": {
+      "path": "coordinator_agent@3"
+    },
+    "id": "9008b74f-29c1-458a-ad3f-7f189da5bae3",
+    "timestamp": 1790068353.6934173
+  }
+]
